@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{title}}</title>
+<meta name="description" content="{{metaDescription}}">
+<link rel="canonical" href="{{siteUrl}}/services/{{slug}}/">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{metaDescription}}">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/site.css">
+<script type="application/ld+json">{{jsonld}}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="header">
+  <div class="container">
+    <a class="brand" href="/">Avijeet Thakur</a>
+    <nav class="nav" aria-label="Primary">{{nav}}</nav>
+    <a class="btn btn-outline-light" href="#contact">Hire me</a>
+  </div>
+</header>
+<div class="crumbs"><div class="container"><ol><li><a href="/">Home</a></li><li>Services</li><li aria-current="page">{{navLabel}}</li></ol></div></div>
+
+<main id="main">
+<section class="hero">
+  <div class="hero-media" aria-hidden="true">{{heroSlides}}</div>
+  <div class="container hero-inner">
+    <div class="hero-copy">
+      <p class="eyebrow rise" style="--d:0ms">{{eyebrow}}</p>
+      <h1 class="rise" style="--d:120ms">{{h1}}</h1>
+      <p class="sub rise" style="--d:240ms">{{lead}}</p>
+      <div class="cta-row rise" style="--d:360ms">
+        <a class="btn btn-primary" href="mailto:{{email}}?subject={{mailSubject}}">{{ctaPrimary}} <span class="arr" aria-hidden="true">&rarr;</span></a>
+        <a class="btn btn-outline-light" href="#work">See proof</a>
+      </div>
+    </div>
+    <div class="hero-cap rise" style="--d:480ms"><span class="hero-cap-label">Recent work</span><span class="hero-cap-title" id="heroCap">{{heroCaption}}</span><span class="hero-dots" id="heroDots"></span></div>
+  </div>
+</section>
+
+<section class="stats-wrap"><div class="container"><ul class="stats">{{proof}}</ul></div></section>
+
+<section class="sec mist" id="offer">
+  <div class="container">
+    <div class="sechead"><div><p class="eyebrow">What you get</p><h2 class="h2">{{offerTitle}}</h2><p>{{offerIntro}}</p></div></div>
+    <div class="cards three">{{offerCards}}</div>
+  </div>
+</section>
+
+<section class="sec ink" id="process">
+  <div class="gridtex"></div>
+  <div class="container">
+    <div class="sechead"><div><p class="eyebrow">How it runs</p><h2 class="h2">From brief to live</h2></div></div>
+    <ol class="steps">{{steps}}</ol>
+  </div>
+</section>
+
+<section class="sec paper" id="work">
+  <div class="container">
+    <div class="sechead"><div><p class="eyebrow">Proof of work</p><h2 class="h2">Results</h2></div></div>
+    <div class="cards">{{workCards}}</div>
+  </div>
+</section>
+
+<section class="sec ink" id="videos">
+  <div class="gridtex"></div>
+  <div class="container">
+    <div class="sechead"><div><p class="eyebrow">Walkthroughs</p><h2 class="h2">Watch the work</h2><p>Short videos of projects I designed and built. Pick one to play it.</p></div></div>
+    <div class="vid-grid">
+      <div class="vid-stage" id="vidStage" data-first="{{vidFirst}}"><button class="vid-poster" type="button" aria-label="Play video"><img src="https://i.ytimg.com/vi/{{vidFirst}}/hqdefault.jpg" width="480" height="360" alt="" loading="lazy"><span class="play" aria-hidden="true"></span></button></div>
+      <div class="vid-list" id="vidList">{{vidList}}</div>
+    </div>
+    <div class="vid-details" id="vidDetails">{{vidDetails}}</div>
+  </div>
+</section>
+
+<section class="sec mist" id="finder">
+  <div class="container">
+    <div class="sechead"><div><p class="eyebrow">Find your fit</p><h2 class="h2">Not this one? Pick what you need</h2></div></div>
+    <div class="tiles">{{tiles}}</div>
+  </div>
+</section>
+
+<section class="sec paper ruled" id="faq">
+  <div class="container">
+    <div class="sechead"><div><p class="eyebrow">Stack</p><h2 class="h2">Tools I use for this</h2></div></div>
+    <div class="chips">{{stack}}</div>
+  </div>
+</section>
+
+<section class="sec mist">
+  <div class="container">
+    <div class="sechead"><div><p class="eyebrow">Questions</p><h2 class="h2">Before you get in touch</h2></div></div>
+    <div class="faq">{{faq}}</div>
+  </div>
+</section>
+
+<section class="sec ink cta" id="contact">
+  <div class="gridtex"></div>
+  <div class="container">
+    <p class="eyebrow">Start a project</p>
+    <h2 class="h2">{{ctaTitle}}</h2>
+    <p class="sub">{{ctaText}}</p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="mailto:{{email}}?subject={{mailSubject}}">Email me the brief <span class="arr" aria-hidden="true">&rarr;</span></a>
+      <a class="btn btn-outline-light" href="{{linkedin}}" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div><h3>Avijeet Thakur</h3><p>{{footerLine}}</p></div>
+    <div><h3>Services</h3><ul>{{footerLinks}}</ul></div>
+    <div><h3>Contact</h3><ul><li><a href="mailto:{{email}}">{{email}}</a></li><li><a href="{{linkedin}}" rel="noopener">LinkedIn</a></li></ul></div>
+    <p class="legal">Client names shown only where the work is live and public.</p>
+  </div>
+</footer>
+<div class="sticky"><a class="btn btn-primary" href="mailto:{{email}}?subject={{mailSubject}}">{{ctaPrimary}}</a></div>
+<script>
+(function(){var s=document.querySelectorAll('.hero-slide');if(s.length<2)return;var cap=document.getElementById('heroCap'),dots=document.getElementById('heroDots'),i=0,t;
+if(dots)for(var k=0;k<s.length;k++){var d=document.createElement('i');dots.appendChild(d)}
+function show(n){s[i].classList.remove('on');i=(n+s.length)%s.length;s[i].classList.add('on');if(cap)cap.textContent=s[i].getAttribute('data-title');if(dots){for(var k=0;k<dots.children.length;k++)dots.children[k].className=k===i?'on':''}}
+show(0);
+if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches){t=setInterval(function(){show(i+1)},4800)}
+})();
+</script>
+<script>
+(function(){
+var els=document.querySelectorAll('[data-count]');
+function run(el){var end=+el.getAttribute('data-count'),p=el.getAttribute('data-prefix')||'',s=el.getAttribute('data-suffix')||'',t0=null;function f(ts){if(!t0)t0=ts;var k=Math.min((ts-t0)/1200,1),e=1-Math.pow(1-k,3);el.textContent=p+Math.round(end*e)+s;if(k<1)requestAnimationFrame(f)}requestAnimationFrame(f)}
+var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+if('IntersectionObserver' in window){var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.parentNode.classList.add('in');if(!reduce)run(x.target);io.unobserve(x.target)}})},{threshold:.4});els.forEach(function(e){io.observe(e)})}else{els.forEach(function(e){e.parentNode.classList.add('in')})}
+var stage=document.getElementById('vidStage');if(!stage)return;
+var cur=stage.getAttribute('data-first'),loaded=false;
+function load(id,sound){stage.innerHTML='<iframe src="https://www.youtube-nocookie.com/embed/'+id+'?autoplay=1&mute='+(sound?0:1)+'&playsinline=1&rel=0&modestbranding=1" title="Project walkthrough" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>';loaded=true}
+if('IntersectionObserver' in window){var vo=new IntersectionObserver(function(en){if(en[0].isIntersecting&&!loaded){load(cur,false);vo.disconnect()}},{threshold:.35});vo.observe(stage)}
+stage.addEventListener('click',function(e){if(!loaded&&e.target.closest('.vid-poster'))load(cur,true)});
+var items=document.querySelectorAll('.vid-item'),det=document.querySelectorAll('.vid-detail');
+items.forEach(function(b){b.addEventListener('click',function(){var n=+b.getAttribute('data-n');cur=b.getAttribute('data-vid');items.forEach(function(x){x.classList.toggle('on',x===b)});det.forEach(function(d){d.hidden=(+d.getAttribute('data-n')!==n)});load(cur,true)})});
+})();
+</script>
+</body>
+</html>

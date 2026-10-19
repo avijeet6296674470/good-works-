@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "packVersion": "2.0",
+    "project": "example-project",
+    "initialisedOn": "",
+    "note": "Copy to the project root as brand.config.json, then run /init-brand. Field-by-field meaning: reference/BRAND-CONFIG-CONTRACT.md. Empty string means unanswered. null means deliberately not applicable."
+  },
+
+  "identity": {
+    "name": "",
+    "nameRule": "",
+    "legalName": "",
+    "domain": "",
+    "legacyDomain": null,
+    "promise": "",
+    "tagline": null,
+    "subBrands": []
+  },
+
+  "vertical": {
+    "overlay": "local-business",
+    "overlayOptions": ["local-business", "saas", "ecommerce", "agency", "none"],
+    "primaryConversion": "",
+    "secondaryConversion": null
+  },
+
+  "market": {
+    "country": "",
+    "region": "",
+    "city": null,
+    "languageRegister": "",
+    "currencyCode": "",
+    "currencySymbol": "",
+    "priceFormat": "",
+    "dateFormat": "",
+    "phoneFormat": "",
+    "addressFormat": "",
+    "primaryDeviceWidth": 375,
+    "networkBudget": "",
+    "citationPlatforms": [],
+    "reviewPlatforms": []
+  },
+
+  "voice": {
+    "framework": "",
+    "person": "first-and-second",
+    "modes": [],
+    "readingLevel": "",
+    "humourPolicy": "",
+    "bannedWordsFile": "docs/BANNED-WORDS.md",
+    "globalBans": ["em dash", "en dash"]
+  },
+
+  "palette": {
+    "accentRule": "The accent marks the one thing that matters on a surface. Never decoration.",
+    "roles": {
+      "background": { "hex": "#FFFFFF", "name": "" },
+      "surface": { "hex": "#F5F5F5", "name": "" },
+      "text": { "hex": "#111111", "name": "" },
+      "muted": { "hex": "#767676", "name": "" },
+      "accent": { "hex": "#0000FF", "name": "" },
+      "accentAlt": { "hex": "#00AA55", "name": "" }
+    },
+    "contrastLaws": []
+  },
+
+  "type": {
+    "display": { "family": "", "source": "self-hosted", "licence": "" },
+    "body": { "family": "", "source": "self-hosted", "licence": "" },
+    "mono": { "family": "", "source": "self-hosted", "licence": "" },
+    "hostedFontsAllowed": false
+  },
+
+  "stack": {
+    "framework": "",
+    "rendering": "",
+    "css": "",
+    "tokenSystem": "",
+    "imagePolicy": "",
+    "hosting": "",
+    "analytics": "",
+    "frozenSubsystems": []
+  },
+
+  "urls": {
+    "canonicalBase": "",
+    "trailingSlash": true,
+    "slugPolicy": "lowercase-hyphenated-never-change-without-301",
+    "keywordMapFile": "",
+    "sitemapRoutes": [],
+    "llmsTxt": true
+  },
+
+  "assets": {
+    "publicRoot": "public/",
+    "brandRoot": "public/brand/",
+    "fontRoot": "public/fonts/",
+    "cdnDomain": null,
+    "maxImageBytes": 300000,
+    "preferredFormat": "webp"
+  },
+
+  "imagery": {
+    "provider": "imagerouter",
+    "providerRule": "Every image goes through ImageRouter. Never call a model provider directly.",
+    "models": {
+      "objects": "openai/gpt-image-2",
+      "textures": "openai/gpt-image-2",
+      "atmospheres": "google/nano-banana-pro",
+      "people": "google/nano-banana-pro",
+      "freeTest": "openai/gpt-image-2:free"
+    },
+    "budgetUsd": null,
+    "peopleTreatment": "",
+    "inSceneTextPolicy": "every word specified verbatim in the prompt",
+    "approvedInSceneText": [],
+    "sharedExclusions": []
+  },
+
+  "truth": {
+    "factsFile": "docs/BRAND-TRUTHS.md",
+    "otherSources": [],
+    "rule": "No published fact may originate anywhere else. If it cannot be traced, ask.",
+    "forbiddenClaims": []
+  },
+
+  "enforcement": {
+    "sourceGlobs": ["src/**"],
+    "tokenFiles": ["src/styles.css"],
+    "ledgerFile": "_agency-internal/seo/CHANGE-LOG.md",
+    "seoDataDir": "_agency-internal/seo/data/",
+    "rules": {
+      "noEmDash": true,
+      "noRawHexOutsideTokenFiles": true,
+      "noArbitraryColorUtilities": true,
+      "noInlineAppearanceStyles": true,
+      "noImportantUtilities": true,
+      "noHostedFontLinks": true,
+      "bannedSchemaTypes": [],
+      "faqBankFile": null,
+      "fontDigitTraps": []
+    },
+    "grandfathered": []
+  }
+}

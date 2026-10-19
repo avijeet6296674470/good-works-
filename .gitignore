@@ -1,0 +1,7 @@
+.env
+.env.*
+node_modules/
+dist/
+*.pdf
+LinkedIn*.html
+Avijeet*LinkedIn*.html

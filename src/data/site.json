@@ -1,0 +1,126 @@
+{
+  "siteUrl": "https://YOUR-DOMAIN.example",
+  "email": "abhijeet62966@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/avijeet-thakur",
+  "footerLine": "WordPress, Shopify and full-stack web developer with AI automation and SEO. 5+ years building sites that rank and convert.",
+  "proof": {
+    "years": [
+      "5+",
+      "Years in web"
+    ],
+    "leads": [
+      "+55%",
+      "Lead generation, Footprints"
+    ],
+    "inquiries": [
+      "+27%",
+      "Inquiries, Footprints"
+    ],
+    "subs": [
+      "+13%",
+      "Subscriptions, Tender Suvidha"
+    ],
+    "retention": [
+      "+20%",
+      "Retention, Tender Suvidha"
+    ],
+    "paid": [
+      "+8%",
+      "Paid users, Tender Suvidha"
+    ]
+  },
+  "works": {
+    "footprints": {
+      "label": "Mental health counseling, US",
+      "title": "Footprints Mental Health Counseling",
+      "text": "Two custom WordPress sites of 30 to 40 pages with responsive UI, technical SEO and landing page optimization. Lead generation up 55% and inquiries up 27%. Added an AI lead-qualification chatbot and an AI voice agent.",
+      "url": "https://footprintsmentalhealthcounseling.com",
+      "img": "footprints"
+    },
+    "coaching": {
+      "label": "Care coaching, US",
+      "title": "Footprints Care Coaching",
+      "text": "Second site in the same build: responsive WordPress, on-page SEO and conversion-focused landing pages.",
+      "url": "https://footprintscarecoaching.com",
+      "img": "coaching"
+    },
+    "tender": {
+      "label": "B2B SaaS",
+      "title": "Tender Suvidha",
+      "text": "Contributed to a B2B SaaS CRM through feature development and workflow automation. Subscriptions up 13%, paid users up 8% and retention up 20% through UX improvements and KPI-driven decisions.",
+      "url": "https://www.tendersuvidha.com",
+      "img": "tender"
+    },
+    "efiling": {
+      "label": "Digital signature services",
+      "title": "Efiling Infotech",
+      "text": "Built and maintained WordPress and Shopify sites with SEO, speed optimization and ongoing support, converting Figma designs into responsive pages.",
+      "url": "https://www.efilinginfotech.net.in/",
+      "img": "efiling"
+    },
+    "digsign": {
+      "label": "Digital signature services",
+      "title": "digitalsignature.net.in",
+      "text": "Live WordPress site with technical SEO and performance work.",
+      "url": "https://digitalsignature.net.in",
+      "img": "digsign"
+    },
+    "voice": {
+      "label": "AI automation",
+      "title": "AI Voice Appointment Agent",
+      "text": "Voice agent that books appointments, built with n8n, OpenAI, Cal.com, AWS, Docker and WordPress.",
+      "url": ""
+    },
+    "ecom": {
+      "label": "E-commerce and apps",
+      "title": "Jewellery store and U.S. client sites",
+      "text": "E-commerce build for a jewellery retailer with the related application project managed through Agile sprints, plus three WordPress sites for a U.S. client: a phone retailer and two healthcare lead-generation sites.",
+      "url": ""
+    },
+    "automations": {
+      "label": "AI automation",
+      "title": "AI email, news and chatbot automations",
+      "text": "Email automation with OpenAI, Gmail API and Excel. News research automation from APIs and RSS feeds. A Telegram chatbot on the Perplexity API. Voice transcription and summarization.",
+      "url": ""
+    },
+    "mvp": {
+      "label": "Product",
+      "title": "Expense Management MVP",
+      "text": "Zero-to-one product discovery and validation, with PRDs and Figma wireframes.",
+      "url": ""
+    },
+    "bluehen": {
+      "label": "Chauffeur and limousine",
+      "title": "Blue Hen Chauffeur",
+      "text": "Recent project: a home page and a services page for a chauffeur and limousine business, with a booking form in the hero.",
+      "url": "https://avijeetthakur.xyz/home/",
+      "img": "bluehen"
+    },
+    "joyful": {
+      "label": "Pediatric dentistry",
+      "title": "Joyful Smiles Pediatric Dentistry",
+      "text": "Recent project: a home page and a service page for a pediatric dental practice.",
+      "url": "",
+      "img": "joyful"
+    }
+  },
+  "promo": [
+    {
+      "text": "Websites, stores and AI automations, built end to end."
+    },
+    {
+      "text": "Send a short brief. I reply with a plan.",
+      "link": "#contact",
+      "linkText": "Email me"
+    }
+  ],
+  "heroSlides": [
+    "footprints",
+    "bluehen",
+    "tender",
+    "joyful",
+    "efiling",
+    "coaching",
+    "digsign"
+  ]
+}
