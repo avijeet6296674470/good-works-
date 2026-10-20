@@ -3,11 +3,11 @@
     "slug": "full-stack-developer",
     "nav": "Full-stack developer",
     "title": "Full-Stack Developer for Hire | Avijeet Thakur",
-    "metaDescription": "Hire a full-stack developer who ships websites, WordPress and Shopify builds, integrations and AI automations end to end. 5+ years, live client results.",
-    "eyebrow": "Full-stack developer",
+    "metaDescription": "Hire a full-stack developer for front end, back end, databases, hosting and SEO, plus WordPress and WooCommerce builds. 5+ years, live client results.",
+    "eyebrow": "From plan to launch",
     "h1": "A full-stack developer who ships the whole thing",
-    "lead": "Design handoff, front end, CMS, integrations, hosting and SEO from one person. I turn a brief or a Figma file into a live, fast site that is built to rank and convert.",
-    "ctaPrimary": "Hire a full-stack developer",
+    "lead": "I build the front end, the back end and the database, then host it and set up SEO. Send me a brief or a Figma file and I will turn it into a live, fast site.",
+    "ctaPrimary": "Start your project",
     "heroChips": [
       "WordPress",
       "Shopify",
@@ -22,24 +22,24 @@
       "inquiries",
       "retention"
     ],
-    "offerTitle": "One developer from design to deploy",
-    "offerIntro": "You get a single point of contact instead of a designer, a developer, an SEO and a sysadmin.",
+    "offerTitle": "One point of contact from design to deploy",
+    "offerIntro": "You deal with me, instead of juggling a designer, a developer, an SEO and a sysadmin.",
     "offer": [
       [
         "Front end",
-        "Responsive HTML, CSS and JavaScript, or Elementor and theme work, built from your Figma designs."
+        "Responsive HTML, CSS and JavaScript interfaces, built from your Figma designs."
       ],
       [
-        "Back end and CMS",
-        "Custom WordPress and WooCommerce, Shopify theme work, forms, payment gateways, SMTP and API integrations."
+        "Back end and database",
+        "Node.js services, API integrations, forms, payment gateways and SMTP email, with MySQL data models behind them."
       ],
       [
         "Hosting and deploy",
-        "Domains, DNS, SSL, cPanel and AWS EC2 setup, with caching and security basics in place."
+        "Domains, DNS, SSL and AWS EC2 deployment with Docker, plus caching and security basics in place."
       ],
       [
         "Speed",
-        "Core Web Vitals work with WP Rocket, WP-Optimize and manual fixes, measured in PageSpeed Insights."
+        "Core Web Vitals work, measured in PageSpeed Insights, on code and hosting alike."
       ],
       [
         "SEO built in",
@@ -48,6 +48,10 @@
       [
         "Automation",
         "Workflows and AI agents with n8n and the OpenAI API wired into your site and CRM."
+      ],
+      [
+        "WordPress and WooCommerce",
+        "When the project needs a CMS or a store: custom WordPress, Elementor and WooCommerce builds, and Shopify theme work."
       ]
     ],
     "steps": [
@@ -71,36 +75,35 @@
     "work": [
       "footprints",
       "tender",
-      "efiling",
-      "voice"
+      "efiling"
     ],
     "workTitle": "Shipped work with measured results",
     "stack": [
-      "WordPress",
-      "Elementor",
-      "WooCommerce",
-      "Shopify",
       "HTML",
       "CSS3",
       "JavaScript",
-      "Forminator",
-      "WP Rocket",
-      "cPanel",
-      "AWS EC2",
-      "Docker",
+      "Node.js",
+      "MySQL",
+      "API integrations",
       "GitHub",
+      "Docker",
+      "AWS EC2",
       "n8n",
       "OpenAI API",
-      "Figma"
+      "Figma",
+      "WordPress",
+      "Elementor",
+      "WooCommerce",
+      "Shopify"
     ],
     "faq": [
       [
         "What does full-stack mean for a website project?",
-        "I handle design implementation, front-end code, CMS and backend setup, integrations, hosting and SEO myself, so nothing falls between vendors."
+        "I build the front end, the back end and the database, and I handle hosting and SEO, so nothing falls between vendors. When a project runs on WordPress or WooCommerce, I build that too."
       ],
       [
         "Can you work from our existing Figma designs?",
-        "Yes. I convert Figma designs into responsive, SEO-friendly WordPress or Shopify sites."
+        "Yes. I convert Figma designs into responsive, SEO-friendly pages in code, WordPress or Shopify."
       ],
       [
         "Do you work with international clients?",
@@ -113,17 +116,34 @@
     ],
     "ctaTitle": "Need a full-stack developer?",
     "ctaText": "Send a short brief: what you are building, your timeline and any designs you have. I reply with a plan and a quote.",
-    "hero": "footprints"
+    "hero": "footprints",
+    "heroPhotos": [
+      {
+        "img": "fullstack-1",
+        "flip": false,
+        "pos": "66% 50%"
+      },
+      {
+        "img": "fullstack-2",
+        "flip": true,
+        "pos": "100% 50%"
+      },
+      {
+        "img": "fullstack-3",
+        "flip": true,
+        "pos": "100% 50%"
+      }
+    ]
   },
   {
     "slug": "web-services",
     "nav": "Web services",
     "title": "Web Services: Build, SEO and Maintenance | Avijeet Thakur",
     "metaDescription": "Complete web services in one place: WordPress and Shopify development, speed optimization, technical SEO and ongoing maintenance.",
-    "eyebrow": "Web services",
-    "h1": "Web services that keep your site fast, found and working",
-    "lead": "Build, fix, speed up and maintain. Whether you need a new site or care for an existing one, I cover development, SEO and the technical details that quietly cost you customers.",
-    "ctaPrimary": "Get a web services quote",
+    "eyebrow": "Build, fix and look after your site",
+    "h1": "I build, fix and look after your website",
+    "lead": "A new site, or an old one that has gone slow? I handle the build, the speed, the SEO and the upkeep, so small faults do not pile up.",
+    "ctaPrimary": "Get a quote",
     "heroChips": [
       "Development",
       "Speed",
@@ -191,14 +211,23 @@
     "workTitle": "Sites I built, fixed and maintain",
     "stack": [
       "WordPress",
+      "Elementor",
       "WooCommerce",
       "Shopify",
+      "HTML",
+      "CSS3",
+      "JavaScript",
+      "Forminator",
+      "WP Rocket",
+      "WP-Optimize",
       "Screaming Frog",
       "Search Console",
       "Tag Manager",
       "PageSpeed Insights",
-      "WP Rocket",
-      "WP-Optimize",
+      "Figma",
+      "Canva",
+      "Balsamiq",
+      "Excel",
       "cPanel",
       ".htaccess",
       "SMTP"
@@ -225,11 +254,11 @@
     "slug": "business-website-creation",
     "nav": "Business websites",
     "title": "Business Website Creation for Leads | Avijeet Thakur",
-    "metaDescription": "Professional business website creation on WordPress or Shopify, with SEO, speed and lead capture built in. Proven results: +55% leads for a US client.",
-    "eyebrow": "Business website creation",
-    "h1": "Business websites built to bring in enquiries",
-    "lead": "A good business site earns trust in seconds and makes the next step obvious. I build sites with technical SEO, clear landing pages and lead capture from the start.",
-    "ctaPrimary": "Get my business website built",
+    "metaDescription": "Business website creation on WordPress or Shopify, with SEO, speed and lead capture built in from the start. Past client sites live and linked.",
+    "eyebrow": "For businesses that need enquiries",
+    "h1": "A business website that brings in enquiries",
+    "lead": "I plan the pages, build the site, and set up SEO and lead capture from day one. A visitor should always know how to get in touch.",
+    "ctaPrimary": "Get your site built",
     "heroChips": [
       "WordPress",
       "Shopify",
@@ -329,10 +358,10 @@
     "nav": "Developer services",
     "title": "Developer Services for Teams | Avijeet Thakur",
     "metaDescription": "On-demand developer services for agencies and businesses: WordPress, Shopify, front-end, integrations and automation, delivered on contract or by project.",
-    "eyebrow": "Developer services",
-    "h1": "A reliable developer on contract or by project",
-    "lead": "Agencies and teams use me to extend capacity: theme builds, plugin and integration work, bug fixes and speed work, delivered cleanly with clear communication.",
-    "ctaPrimary": "Book a developer",
+    "eyebrow": "Extra hands for your team",
+    "h1": "A developer for your next project or contract",
+    "lead": "Agencies and teams hire me for theme builds, integrations, bug fixes and speed work. I keep you updated and hand over clear notes when I am done.",
+    "ctaPrimary": "Book me for a project",
     "heroChips": [
       "Contract",
       "Project-based",
@@ -353,10 +382,6 @@
         "Embedded in your workflow with sprints, tickets and regular updates."
       ],
       [
-        "White-label builds",
-        "WordPress and Shopify builds from your designs, delivered under your brand."
-      ],
-      [
         "Integrations",
         "Payment gateways, SMTP, forms, APIs and third-party tools connected cleanly."
       ],
@@ -371,6 +396,10 @@
       [
         "Documentation",
         "Clear handover notes so your team can take over."
+      ],
+      [
+        "White-label builds",
+        "WordPress and Shopify builds from your designs, delivered under your brand."
       ]
     ],
     "steps": [
@@ -399,17 +428,18 @@
     ],
     "workTitle": "Delivered for companies and clients",
     "stack": [
-      "WordPress",
-      "WooCommerce",
-      "Shopify",
-      "JavaScript",
       "HTML",
       "CSS3",
+      "JavaScript",
+      "Node.js",
       "GitHub",
       "Docker",
       "Figma",
       "Agile",
-      "Scrum"
+      "Scrum",
+      "WordPress",
+      "WooCommerce",
+      "Shopify"
     ],
     "faq": [
       [
@@ -430,10 +460,10 @@
     "nav": "AI automation",
     "title": "AI Automation Consultant, n8n and OpenAI | Avijeet Thakur",
     "metaDescription": "AI automation consultant building n8n workflows, OpenAI chatbots and AI voice appointment agents that connect to your website, calendar and CRM.",
-    "eyebrow": "AI automation",
-    "h1": "AI automations that take work off your plate",
-    "lead": "Lead qualification chatbots, voice agents that book appointments, email and research automations. Built with n8n and the OpenAI API and connected to the tools you already use.",
-    "ctaPrimary": "Automate my workflow",
+    "eyebrow": "Automation for repeat work",
+    "h1": "AI automations that take repeat work off your plate",
+    "lead": "I build chatbots that qualify leads, voice agents that book appointments, and flows for email and research. They run on n8n and the OpenAI API and connect to the tools you already use.",
+    "ctaPrimary": "Automate a task",
     "heroChips": [
       "n8n",
       "OpenAI API",
@@ -535,9 +565,9 @@
     "nav": "Consulting",
     "title": "Website and Online Business Consulting | Avijeet Thakur",
     "metaDescription": "Website and online business consulting from a developer with product-management experience: strategy, SEO, UX and prioritization that moves the numbers.",
-    "eyebrow": "Consulting",
-    "h1": "Website and online business consulting that moves numbers",
-    "lead": "I combine web development with product management. That means advice grounded in what is feasible to build and what customers do, not theory.",
+    "eyebrow": "Advice from someone who builds",
+    "h1": "Clear advice on your website and online business",
+    "lead": "I mix web development with product management, so my advice rests on what is possible to build and how customers actually behave.",
     "ctaPrimary": "Book a consultation",
     "heroChips": [
       "Product management",

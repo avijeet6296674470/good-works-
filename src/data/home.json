@@ -1,0 +1,146 @@
+{
+  "title": "Avijeet Thakur | Web Developer, SEO and AI Automation",
+  "metaDescription": "Web developer with product management experience: WordPress, Shopify and custom builds, SEO and speed, and AI automations. 5+ years of client work.",
+  "eyebrow": "Product and web developer",
+  "h1": "I build websites and automations around your business goals",
+  "lead": "I'm a web developer who works like a product manager: I ask what each page is for before I build it. I use code, WordPress and Shopify, and I add AI automations when they'll save you time.",
+  "ctaPrimary": "Start a project",
+  "ctaSecondary": "See the services",
+  "fine": "Send a short brief. I reply with a plan.",
+  "photos": [
+    {
+      "img": "home-1",
+      "flip": false,
+      "pos": "78% 50%"
+    },
+    {
+      "img": "home-2",
+      "flip": false,
+      "pos": "78% 50%"
+    },
+    {
+      "img": "home-3",
+      "flip": false,
+      "pos": "78% 50%"
+    }
+  ],
+  "who": {
+    "eyebrow": "About me",
+    "title": "Who I am",
+    "paragraphs": [
+      "I'm Avijeet Thakur, a web developer who also works like a product manager. I've been building websites and stores for more than five years, mostly in WordPress and Shopify, with SEO and speed work on every build.",
+      "I did product work alongside the code: user research, sprint planning, writing requirements. At Tender Suvidha that meant helping a B2B SaaS product keep its users and win new subscribers.",
+      "These days I also build AI automations, like a voice agent that books appointments and a chatbot that qualifies leads. Most projects I build myself. When one needs more hands, I bring in people I trust and stay your point of contact."
+    ],
+    "linkText": "Read more about me"
+  },
+  "what": {
+    "eyebrow": "What I do",
+    "title": "From first brief to a live site",
+    "intro": "I take a site from the first conversation to launch, and I stay on to look after it.",
+    "steps": [
+      [
+        "Plan",
+        "You and I agree what the site has to do, which pages it needs and what people will search for."
+      ],
+      [
+        "Build",
+        "I design from your Figma file or my own wireframes, then build a working version you can click through."
+      ],
+      [
+        "Launch",
+        "I set up SEO, speed, hosting and tracking, then go live."
+      ],
+      [
+        "Look after it",
+        "I keep it updated and fix what breaks. When you want something new, I add it."
+      ]
+    ]
+  },
+  "why": {
+    "eyebrow": "Why work with me",
+    "title": "What you get when you work with me",
+    "intro": "Here's what working with me looks like.",
+    "reasons": [
+      [
+        "One point of contact",
+        "You talk to me, the person who plans and builds your site. If a project needs more people, I bring them in and stay your single contact, so nothing gets lost between a designer, a developer and an SEO."
+      ],
+      [
+        "I ask what a page is for",
+        "I've worked in product, so I start with what each page has to achieve and how you'll know it did."
+      ],
+      [
+        "Speed and SEO from day one",
+        "They go into the build from the start, not in a rush after launch."
+      ],
+      [
+        "Work you can open",
+        "The sites I talk about are live. Open them and judge for yourself."
+      ],
+      [
+        "Plain updates",
+        "You get a plan first, a staging site to click through, and updates while I build."
+      ]
+    ]
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "What I can build for you"
+  },
+  "results": {
+    "eyebrow": "Results from past work",
+    "title": "Work you can open",
+    "works": [
+      "footprints",
+      "tender",
+      "efiling"
+    ]
+  },
+  "faq": {
+    "eyebrow": "Questions",
+    "title": "Questions people ask me first",
+    "items": [
+      [
+        "What do you build?",
+        "Business websites, online stores, and the front and back end of web apps, plus AI automations. Most of my work is on WordPress, WooCommerce and Shopify, with custom code when a project needs it."
+      ],
+      [
+        "How does a project start?",
+        "You send a short brief through the form. I reply with questions and a plan. Once you and I have agreed scope, price and timeline in writing, I start."
+      ],
+      [
+        "Do you work alone?",
+        "Most projects I build myself. When a project needs more hands, I bring in people I trust and stay your point of contact, so you only ever deal with me."
+      ],
+      [
+        "Can you work from my designs?",
+        "Yes. I turn Figma designs into responsive pages. If you don't have designs, I can work from wireframes."
+      ],
+      [
+        "I already have a site. Can you help?",
+        "Yes. I check what's slowing it down or holding back its SEO, fix it, and I can take over the upkeep."
+      ],
+      [
+        "Will my site rank on Google?",
+        "I build SEO into every page, but I don't promise positions. Rankings depend on your competition and on time."
+      ],
+      [
+        "How much does it cost?",
+        "It depends on the scope. I quote per project after I've read your brief."
+      ],
+      [
+        "Do you work with agencies and teams?",
+        "Yes, on contract or by the project."
+      ]
+    ],
+    "sideEyebrow": "Still unsure?",
+    "sideTitle": "Ask me directly",
+    "sideText": "Send your question with your contact details and I'll answer by email."
+  },
+  "cta": {
+    "eyebrow": "Start a project",
+    "title": "Have something to build?",
+    "text": "Send your name, email and phone number. I'll reply by email with questions and a plan."
+  }
+}

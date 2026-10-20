@@ -18,7 +18,7 @@ Applies to every string that ships: page copy, titles, descriptions, alt text, F
 delve, leverage (verb), unleash, unlock (metaphor), elevate (metaphor), seamless, streamline, game-changer, revolutionise, transform (metaphor), cutting-edge, state-of-the-art, world-class, next-level, top-notch, robust, holistic, synergy, curated, vibrant, bustling, nestled, "whether you are X or Y", "it is worth noting", "in today's fast-paced world", "look no further", "at the end of the day", "the perfect blend of", "something for everyone", "take your business to the next level", "digital presence" (as filler), "end-to-end solutions", "passionate about", "tailored solutions", "one-stop shop".
 
 ### Positioning errors
-- "agency" as a self-description, "our team", "we" meaning a company: this is one person. Use "I". ("You and I" for joint work is fine.)
+- "agency" as a self-description, "our team", "we" meaning a company, staff numbers. The site speaks as "I". Joint work is "you and I", and extra people are "people I trust" or "people I work with", only where true.
 - "guru", "ninja", "rockstar", "expert" as a self-description. Show proof instead. ("SEO Specialist" as a CV job title is allowed when quoted.)
 - "cheap", "affordable", "budget" as a selling point.
 

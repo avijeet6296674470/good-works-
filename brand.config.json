@@ -189,7 +189,7 @@
       "Guaranteed rankings, positions or traffic",
       "Client logos or names beyond the live projects listed in the CV",
       "Revenue, earnings or user-count figures for client businesses",
-      "Team size or agency framing (this is one person)",
+      "Team size, staff numbers, \"our team\" or agency framing. Say \"I\", and \"people I work with\" only where true",
       "Certifications beyond those listed in the CV"
     ]
   },
@@ -217,13 +217,6 @@
       "faqBankFile": null,
       "fontDigitTraps": []
     },
-    "grandfathered": [
-      {
-        "file": "src/template.html",
-        "exception": "Google Fonts link only (inline styles removed 2026-10-19)",
-        "reason": "Temporary until fonts are self-hosted and styles moved to site.css",
-        "endsWhen": "Fonts self-hosted under src/fonts/"
-      }
-    ]
+    "grandfathered": []
   }
 }

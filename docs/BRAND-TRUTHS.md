@@ -79,7 +79,7 @@ Certifications (CV): Generative AI for Everyone (Coursera); AI Automation with n
 - Any result figure not in section 7 above.
 - Guaranteed rankings, positions or traffic.
 - Revenue, earnings or user counts for client businesses.
-- Agency or team framing. This is one person.
+- Agency framing, team size, staff numbers or "our team". The site speaks as "I".
 - Client names or logos beyond the live projects above. HTZ Wireless, AFMC and Radhika Jwellers are in the CV but have no confirmed permission to be shown by name on the public site.
 
 ## 8. Source hierarchy
@@ -107,3 +107,22 @@ Certifications (CV): Generative AI for Everyone (Coursera); AI Automation with n
 | Pricing or engagement models to publish | Avijeet | 2026-10-19 | Optional |
 | Do the live client sites still run as they did, and do their owners allow linking | Avijeet | 2026-10-19 | Before launch |
 | Screenshots of real work to use as proof images | Avijeet | 2026-10-19 | Before proof pages |
+
+## Owner-supplied on 2026-10-20 (not in the CV)
+- Full-stack stack: Node.js is named by the owner as part of the full-stack offer. MySQL is used as the database name because WordPress runs on it; the owner has not named a database. Confirm both.
+
+## Open questions added 2026-10-20
+| Question | Owner | Asked on | Needed by |
+|---|---|---|---|
+| Confirm Node.js and which database(s) are offered on the full-stack page | Avijeet | 2026-10-20 | Before launch |
+| Privacy Policy and Terms are drafts: confirm who the legal operator is (individual or business), the governing law/jurisdiction, data retention period, and that no analytics or ad cookies will be added | Avijeet (and legal review) | 2026-10-20 | Before launch |
+| Which SMTP service and mailbox will deliver enquiries (policy names an unnamed SMTP service and AWS hosting) | Avijeet | 2026-10-20 | Before launch |
+
+## Testimonials (2026-10-20)
+The home page has a Testimonials section that stays hidden until real quotes are added to `src/data/testimonials.json` as `{ "quote", "name", "role" }`. Each needs the client's written permission and a named source. No quote may be written or paraphrased by anyone else.
+
+
+## Confirmed by the owner on 2026-10-20
+- "I did product work alongside the code" and the Tender Suvidha line on the home page ("helping a B2B SaaS product keep its users and win new subscribers") are approved wording.
+- "I quote per project after I've read your brief" and "once we've agreed scope, price and timeline in writing, I start" describe how the owner works. Approved for the FAQ.
+- Voice: first person "I". The owner mostly works alone, but other people sometimes work with them on a project. Say "I bring in people I trust and stay your point of contact" where it fits. Never claim an agency, a named team or staff numbers, and never use "we" as a company.

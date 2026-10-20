@@ -10,7 +10,7 @@ What the code guard enforces and what reviewers check. Machine-readable switches
 Grandfathered exceptions:
 | File | Exception | Reason | Ends when |
 |---|---|---|---|
-| `src/template.html` | Google Fonts link only (inline styles removed 2026-10-19) | Built before the guard existed | Fonts self-hosted in `src/fonts/` |
+| none | | | |
 
 ## 2. Images
 - Real `<img>` with alt, width and height, `loading="lazy"` except the largest-paint element. No CSS background images for content.

@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "about",
+    "navLabel": "About",
+    "title": "About Avijeet Thakur | Web Developer and Consultant",
+    "metaDescription": "Background, experience, skills and certifications of Avijeet Thakur: a web developer with product management experience, SEO and AI automation skills.",
+    "eyebrow": "About",
+    "h1": "A web developer who thinks like a product manager",
+    "lead": "I build websites, stores and AI automations, and I bring a product manager's habits to each project: a clear job for every page and a measure for every change.",
+    "type": "AboutPage"
+  },
+  {
+    "slug": "contact",
+    "navLabel": "Contact",
+    "title": "Contact Avijeet Thakur | Start a Project",
+    "metaDescription": "Send your name, email and phone number to start a web development, SEO or AI automation project with Avijeet Thakur. Replies by email.",
+    "eyebrow": "Contact",
+    "h1": "Let's talk about your project",
+    "lead": "Tell me what you are building and how to reach you. I reply by email.",
+    "type": "ContactPage"
+  },
+  {
+    "slug": "privacy-policy",
+    "navLabel": "Privacy Policy",
+    "title": "Privacy Policy | Avijeet Thakur",
+    "metaDescription": "How this website handles the details you send through the enquiry form, cookies, embedded videos and the services that process them.",
+    "eyebrow": "Legal",
+    "h1": "Privacy Policy",
+    "lead": "What I collect through this site, why, and what you can ask me to do with it.",
+    "type": "WebPage"
+  },
+  {
+    "slug": "terms-and-conditions",
+    "navLabel": "Terms and Conditions",
+    "title": "Terms and Conditions | Avijeet Thakur",
+    "metaDescription": "The terms for using this website: what the site is, no guarantee of results, acceptable use, intellectual property and liability.",
+    "eyebrow": "Legal",
+    "h1": "Terms and Conditions",
+    "lead": "The terms that apply when you use this website.",
+    "type": "WebPage"
+  }
+]

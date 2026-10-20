@@ -44,7 +44,7 @@ Colours live in `src/css/site.css` `:root` only.
 | Mono | JetBrains Mono 500, uppercase, 0.04em | Labels, chips, eyebrows, metrics captions | Paragraphs |
 
 Scale (desktop/mobile): h1 48/34, h2 34/26, h3 22/20, body 17/16, label 13/12.
-Licence: all three are SIL Open Font Licence; self-hosting is allowed. **Currently loaded from Google Fonts: a grandfathered exception until the files are self-hosted.**
+Licence: all three are SIL Open Font Licence; self-hosting is allowed. Self-hosted (latin subset woff2 in `src/fonts/`, inlined `@font-face` in the page CSS).
 
 ## 3. Voice
 | Mode | Used for | Example |

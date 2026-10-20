@@ -14,6 +14,7 @@ Static portfolio for Avijeet Thakur (full-stack, WordPress and Shopify developer
 `src/data/site.json` + `src/data/services.json` + `src/template.html` + `src/css/site.css`, then `node build.mjs` writes `dist/`. Preview: `node serve.mjs` on http://localhost:4173. To add a service page, add an entry to `services.json`.
 
 ## Locked decisions
+- 2026-10-20: Full-stack page is the master landing template, redesigned: sticky split offer with numbered rows, featured result plus compact rows, timeline process, FAQ+stack split, centred CTA. No sections added. Fonts self-hosted, CSS inlined, hero first slide visible at load, responsive -640 images. Lighthouse (local, gzip on): desktop 100/100/100/100, mobile perf 99, LCP 2.0s, CLS 0.002.
 - 2026-10-19: Palette is Midnight / Mist / Volt lime (accent) / Sky glow; NO red. Backgrounds use glows and diagonal lines, not a grid. Layout structure from the earlier client project is kept, the look is not copied. Real screenshots of the live client sites (src/img, JPEG under 130KB) are the imagery.
 - 2026-10-19: Hero = black copy panel left, rotating screenshots right (crossfade every 4.8s, fade mask, slow zoom). Owner-supplied recent work: Blue Hen (avijeetthakur.xyz) and Joyful Smiles (staging link, no public URL shown).
 - 2026-10-19: Videos: 7 owner YouTube walkthroughs (src/data/videos.json, owner-written descriptions, em dashes removed). First autoplays muted when scrolled into view.
@@ -21,6 +22,23 @@ Static portfolio for Avijeet Thakur (full-stack, WordPress and Shopify developer
 - 2026-10-19: Static HTML, no framework. One template for all service pages, ported from the Rugged Print "Spec Stack" landing template (iteration 1, the one the owner picked): dark header, breadcrumb bar, grid-texture hero with framed snapshot, offer strip, proof strip, alternating Concrete/Paper/Ink bands, finder tiles, mono-label buttons.
 - 2026-10-19: Vertical overlay `agency`: proof first, no self-reported ratings, no testimonials until supplied.
 - 2026-10-19: Facts come from the CV only. Result figures are held as "CV-sourced, baseline unconfirmed" until the open questions are answered.
+
+- 2026-10-20: Hero enquiry form posts JSON to /api/lead (name, email, phone, page, path). Local server stores to leads.jsonl (gitignored). Production needs a real endpoint; a privacy notice is required before launch (/policy-pages).
+
+- 2026-10-20: Full-stack hero = three owner-supplied photos (originals in src/hero-source, gitignored; web copies src/img/fullstack-N-800|1600.jpg). Photos 2 and 3 are mirrored in CSS so the people sit between headline and form. Set per page with heroPhotos in services.json.
+
+- 2026-10-20: Pages: 6 services, About, Contact, Privacy Policy, Terms and Conditions. Hire me = popup form (data-open-lead) on every page: floating bottom-right button on desktop, sticky bottom bar on mobile, sticky header. Section order on service pages: offer, Watch the work, Results, process, FAQ+stack, CTA. Full-stack and developer pages list code stack first, CMS last.
+- 2026-10-20: Legal pages are drafts (see BRAND-TRUTHS open questions).
+
+- 2026-10-20: Header = logo, Services menu (6 services), Company menu (About, Contact), email, Hire me button; mobile menu holds the same plus email and Hire me. Floating bottom-right Hire me (desktop) and sticky bottom bar (mobile) remain.
+
+- 2026-10-20: Home page built from src/home.html + src/data/home.json. Hero = same pattern as the full-stack hero (photo hero + form). Only hero and services tiles exist so far; more sections to come. Reuses the three full-stack photos until new images arrive.
+
+- 2026-10-20: Home page sections: hero, Who I am, What I do, Why work with me, Services, Results, (Testimonials, hidden until real quotes exist in src/data/testimonials.json), FAQ, closing CTA. Copy lives in src/data/home.json. Uses "I" not "we" (one person).
+
+- 2026-10-20: Voice = first person "I". Owner mostly works alone; other people sometimes join a project. Allowed: "I bring in people I trust and stay your point of contact". Not allowed: agency, team size, "we" as a company.
+
+- 2026-10-20: Home hero is LIGHT (white fade left, owner banners src/hero-source/home-N.png -> src/img/home-N-800|1600.jpg) with the enquiry as a bar (leadBar). Service pages keep the dark photo hero with the side form card.
 
 ## Working rules
 - Ask before inventing any fact. Unanswered fields stay `""`.
@@ -34,4 +52,4 @@ Static portfolio for Avijeet Thakur (full-stack, WordPress and Shopify developer
 Hooks need Python (not installed). They are parked in `.claude/settings.pack-hooks.json.disabled`.
 
 ## Still open
-Domain, audience countries, contact route, result baselines, client-name permissions, real screenshots, self-hosted fonts, which design direction.
+Domain, audience countries, contact route, result baselines, client-name permissions, real screenshots, which design direction (the Rugged-based layout is kept; palette is its own).

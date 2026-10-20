@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{title}}</title>
+<meta name="description" content="{{metaDescription}}">
+<link rel="canonical" href="{{siteUrl}}/{{slug}}/">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{metaDescription}}">
+<meta property="og:type" content="website">
+<link rel="preload" href="/fonts/oswald-600-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/barlow-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<style>{{css}}</style>
+<script type="application/ld+json">{{jsonld}}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+{{header}}
+<div class="crumbs"><div class="container"><ol><li><a href="/">Home</a></li><li aria-current="page">{{navLabel}}</li></ol></div></div>
+
+<main id="main">
+<section class="page-hero">
+  <div class="gridtex"></div>
+  <div class="container">
+    <p class="eyebrow">{{eyebrow}}</p>
+    <h1>{{h1}}</h1>
+    <p class="sub">{{lead}}</p>
+  </div>
+</section>
+{{content}}
+</main>
+
+{{footer}}
+<script>{{script}}</script>
+</body>
+</html>

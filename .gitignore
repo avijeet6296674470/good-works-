@@ -5,3 +5,6 @@ dist/
 *.pdf
 LinkedIn*.html
 Avijeet*LinkedIn*.html
+leads.jsonl
+src/hero-source/
+screenshots/
